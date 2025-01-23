@@ -39,7 +39,7 @@ variable "forwarder" {
       replication_type: string
       tier: optional(string, "Standard")
     })
-    pkg_url: optional(string, "https://releases.bronto.io/integrations/azure/forwarders/eventhub/latest/brontoForwarder.zip")
+    pkg_url: optional(string, "https://releases.bronto.io/integrations/azure/forwarders/eventhub/1.1.3-1/brontoForwarder.zip")
     bronto_config: object({
       ingestion_endpoint: string
       ingestion_key: string
